@@ -1,0 +1,135 @@
+
+
+.Main{
+
+    text-align: center;
+}
+
+header{
+
+  font-size: 50px;
+  padding: 20px;
+}
+
+#WPM{
+    display: block ;
+    background-color: greenyellow;
+    margin: 5px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px black;
+}
+
+#CPM{
+    display: block ;
+    background-color: greenyellow;
+    margin: 5px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px black;
+}
+
+#Error{
+
+    display: block ;
+    background-color: greenyellow;
+    margin: 5px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px black;
+    
+}
+#Time{
+    display: block ;
+    background-color: greenyellow;
+    margin: 5px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px black;
+}
+
+#Accuracy{
+
+    display: block ;
+    background-color: greenyellow;
+    margin: 5px auto;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px black;
+}
+
+#Error,#Accuracy,#Time,#CPM,#WPM{
+    display: inline-block;
+  margin-right: 40px;
+}
+
+.errors, .accuracy{
+    font-size: 40px;
+}
+
+.sec{
+    font-size: 40px;
+   
+}
+
+.WM{
+    font-size: 40px;
+   
+}
+
+.CM{
+    font-size: 40px;
+   
+}
+
+.typeContent{
+
+    display: block ;
+    background-color: greenyellow;
+    font-size: 30px;
+    margin: 7px auto;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 2px 3px black;
+
+}
+
+.typeWords{
+    font-size: 30px;
+    background-color: rgb(247, 228, 193);
+    width: 700px;
+    margin: 7px auto;
+    box-shadow: 2px 3px black;
+}
+
+.button{
+
+    display: block ;
+    background-color: rgb(16, 118, 182);
+    font-size: 30px;
+    margin: 7px auto;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 2px 3px black;
+
+}
+
+.button:focus{
+    background-color: rgb(144, 223, 25);
+    box-shadow: 5px 10px rgb(106, 36, 36);
+}
+
+.correct{
+    color:rgb(11, 154, 6);
+  
+}
+
+.incorrect{
+    color: rgb(245, 9, 9);
+  
+}
